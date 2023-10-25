@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="quiz">
+        <div id="title" class="quiz__title">Название опроса</div>
+
+        <!-- progress start -->
+        <div class="quiz__progress-wrap">
+            <div class="quiz__progress">
+                <div id="progress-fill" class="quiz__progress-fill"></div>
+            </div>
+
+            <div class="quiz__progress-question">
+                <strong id="question-number">1</strong>
+                <span>/</span>
+                <span id="total-question">10</span>
+            </div>
+        </div>
+        <!-- progress end -->
+
+        <!-- question -->
+        <div class="quiz__question">
+            <span id="question">Как быстро научится программировать? - </span> <strong id="question-position">1</strong>
+        </div>
+
+        <div id="answers" class="quiz__answers">
+            <div class="quiz__answer quiz__answer-active">Вариант 1 Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Eos quos nulla doloribus quae ullam id aliquam inventore quam commodi iste itaque fuga, aliquid
+                labore reprehenderit provident odit tempora quibusdam saepe! Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Veritatis dolorum, assumenda facere, aut tempore vitae earum aspernatur eveniet a sit
+                iste exercitationem quam suscipit. Reprehenderit maiores amet deleniti aliquam quod?</div>
+            <div class="quiz__answer">Вариант 2</div>
+            <div class="quiz__answer">Вариант 3</div>
+            <div class="quiz__answer">Вариант 4</div>
+        </div>
+
+        <button class="quiz__button">Следующий вопрос</button>
+    </div>
+
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
